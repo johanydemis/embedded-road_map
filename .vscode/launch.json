@@ -1,14 +1,16 @@
 {
   "version": "0.2.0",
   "configurations": [
+
+    
     {
-      "name": "Debug C program",
+      "name": "Debug crash.c",
       "type": "cppdbg",
       "request": "launch",
-      "program": "C:/Users/johan/Documents/embedded-road_map/week1/day1_pointer/build/Debug/outDebug.exe",
+      "program": "${workspaceFolder}/week1/day4_debug/crash.exe",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "C:/Users/johan/Documents/embedded-road_map/week1/day1_pointer",
+      "cwd": "${workspaceFolder}/week1/day4_debug",
       "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
@@ -20,25 +22,4 @@
           "ignoreFailures": true
         }
       ]
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/johan/Documents/embedded-road_map/week1/day1_pointer",
-      "program": "c:/Users/johan/Documents/embedded-road_map/week1/day1_pointer/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
     }
-  ]
-}
